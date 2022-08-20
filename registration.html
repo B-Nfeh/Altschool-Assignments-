@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="../ALT-WORK/registration.css">
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="nav-list">
+     <a href="index.html">Home</a>
+       <a href="about.html">About</a>
+       <a href="contact.html">Contact</a>
+       <a href="registration.html">Register</a>
+       <a href="login.html">Login</a>
+       <a href="calculator.html">Calculator</a>
+      </nav>
+   </div> 
+    <section class="container">
+         <div>
+        <h1>Register </h1> 
+            <p>create your account. it's free and only takes a minute.</p> 
+
+    </div>
+    <form action="#" method="post" class="form-body">
+        <div class="form-label">
+          <label for="first-name">First name</label>  
+          <input type="text" name="first-name"  class="first-name" placeholder="first name">
+        </div>
+        <div class="form-label">
+            <label for="Last-name">Last name</label>  
+            <input type="text" name="Last-name" class="Last-name" placeholder="last name">
+          </div>
+          <div class="form-label">
+              <label for="phone-number">Phone number</label>
+              <input type="tel" name="phone-number" class="phone-number" placeholder="number" >
+          </div>
+          <div class="form-label">
+              <label for="gender">Gender</label>
+              <select name="gender" required>
+                  <option value="Male">male</option>
+                  <option value="female">female</option>
+              </select>
+          </div>
+           <div class="form-label">
+               <label for="country">country</label>
+               <input type="text" name="country" class="country" placeholder="country">
+           </div>
+           <div class="form-label">
+               <label for="state/province">state/province</label>
+               <input type="text" name="state/province" class="state" placeholder="state/province">
+           </div>
+           <div class="form-label">
+               <label for="username">username</label>
+               <input type="text" name="username" class="username" placeholder="username">
+           </div>
+           <div class="form-label">
+               <label for="password">password</label>
+               <input type="password" name="password" class="password" placeholder="password">
+           </div>
+           <div class="form-label">
+               <label for="confirm-password">confirm password</label>
+               <input type="password" name="confirm-password" class="confirm" placeholder="confirm password">
+           </div>
+           <div>
+           <button class="submit-button">submit</button>
+        </div>
+    </form>
+ </section>
+</body>
+</html>
